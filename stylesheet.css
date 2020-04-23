@@ -229,6 +229,9 @@ button:hover, button:focus, button:active {
 	line-height: 160%;
 	max-width: 485px;
 }
+.rest-inside-casa{
+	text-align: center;
+}
 @media (max-width: 1220px){
 	.menu-container{
 		width: 90%;
@@ -282,6 +285,7 @@ button:hover, button:focus, button:active {
 		display: block;
 		width: 90%;
 		margin: auto;
+		text-align:center;
 	}
 	.hero-inside{
 		display: block;
@@ -291,10 +295,15 @@ button:hover, button:focus, button:active {
 	}
 	.inside-alt{
 		display: block;
-		text-align: center;
 	}
 	.text-alt{
 		display: none;
+	}
+	.rest-inside-casa{
+		display: block;
+		width: 90%;
+		margin: auto;
+		text-align:center;
 	}
 }
 @media (max-width: 600px){
