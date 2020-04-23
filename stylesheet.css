@@ -206,6 +206,29 @@ button:hover, button:focus, button:active {
 .sub-baix{
 	margin-top: 30px;
 }
+.hero-inside{
+	display: flex;
+	justify-content: space-between;
+}
+.inside{
+	margin-bottom: 90px;
+}
+.inside-01{
+	width: 554px;
+}
+.inside-alt{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 90px;
+}
+.desc-alt{
+	margin-left: 80px;
+	padding-left: 30px;
+	border-left: 1px solid #C4C4C4;
+	line-height: 160%;
+	max-width: 485px;
+}
 @media (max-width: 1220px){
 	.menu-container{
 		width: 90%;
@@ -252,6 +275,27 @@ button:hover, button:focus, button:active {
 		width: 90%;
     	margin: auto;
 	}
+	.inside{
+		width: 100%;
+	}
+	.rest-inside{
+		display: block;
+		width: 90%;
+		margin: auto;
+	}
+	.hero-inside{
+		display: block;
+	}
+	.inside-01{
+		display: none;
+	}
+	.inside-alt{
+		display: block;
+		text-align: center;
+	}
+	.text-alt{
+		display: none;
+	}
 }
 @media (max-width: 600px){
    .redes{
@@ -275,5 +319,8 @@ button:hover, button:focus, button:active {
    p{
    	font-size: 16px;
    }
+   .inside-cel{
+		width: 100%;
+	}
 }
 </style>
