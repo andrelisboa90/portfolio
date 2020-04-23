@@ -132,6 +132,9 @@ button{
 .proj-5{
 	background-image: url("img/img-casaverde.png");
 }
+.proj-6{
+	background-image: url("img/img-bilheteria.png");
+}
 .text-curs{
 	font-weight: bold;
 	text-decoration-line: underline;
@@ -268,6 +271,9 @@ button:hover, button:focus, button:active {
 		background-position: 0%;
 	}
 	.proj-4{
+		background-position: 90%;
+	}
+	.proj-6{
 		background-position: 90%;
 	}
 	.cursos{
