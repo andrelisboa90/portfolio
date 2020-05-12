@@ -56,6 +56,24 @@ body{
 	.proj3:hover{
 		background-image: url(img/proj3-hover.png);
 	}
+	.proj4{
+		background-image: url(img/proj4.png);
+	}
+	.proj4:hover{
+		background-image: url(img/proj4-hover.png);
+	}
+	.proj5{
+		background-image: url(img/proj5.png);
+	}
+	.proj5:hover{
+		background-image: url(img/proj5-hover.png);
+	}
+	.proj6{
+		background-image: url(img/proj6.png);
+	}
+	.proj6:hover{
+		background-image: url(img/proj5-hover.png);
+	}
 	.h3{
 		font-family: Montserrat;
 		font-style: normal;
@@ -81,5 +99,81 @@ body{
 	.cen{
 		background:#F1E7D2; 
 		width:85px;
+	}
+	h1{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 42px;
+	}
+	.sobre{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 120px;
+	}
+	.sobre-img{
+		width: 35%;
+	}
+	.sobr-texts{
+		width: 50%;
+	}
+	.email{
+		font-size: 22px;
+	}
+	.rodape{
+		margin-bottom: 20px;
+	}
+	.img-hero{
+		height: 600px;
+		background-image: url(img/todechico01.png);
+		background-repeat: no-repeat;
+    	background-color: white;
+    	background-position: center;
+    	margin-bottom: 2%;
+	}
+	.imgs-proj{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.img-lad{
+		height: 600px;
+		background-repeat: no-repeat;
+    	background-position: center;
+	}
+	.img-lad-01{
+		background-image: url(img/todechico02.png);
+		background-color: white;
+		width: 60%;
+		background-size: 80%;
+	}
+	.img-lad-02{
+		background-image: url(img/todechico03.png);
+		background-color: #F4F4F4;
+		width: 38%;
+		background-size: 100%;
+	}
+	.img-lad-03{
+		height: 600px;
+		background-image: url(img/todechico04.png);
+		background-repeat: no-repeat;
+    	background-color: white;
+    	background-position: center;
+    	margin-bottom: 2%;
+    	margin-top: 2%;
+    	width: 100%;
+	}
+	.img-lad-04{
+		background-image: url(img/todechico05.png);
+		background-color: white;
+		width: 49%;
+		background-size: 80%;
+	}
+	.img-lad-05{
+		background-image: url(img/todechico06.png);
+		background-color: white;
+		width: 49%;
+		background-size: 100%;
 	}
 </style>
