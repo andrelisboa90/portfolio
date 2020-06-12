@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/styles.css?v=1.0">
 </head>
 <body>
+	<div class="se-pre-con"></div>
 	<canvas id="noise" class="noise"></canvas>
 	<section class="container-tud">
 	  	<section class="menu">
@@ -133,5 +134,16 @@
 	<script src="js/scripts.js"></script>
 	<script src="js/grain.js"></script>
 	<script src="js/text.js"></script>
+	<!-- Loader-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+	//paste this code under head tag or in a seperate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+</script>
 </body>
 </html>
