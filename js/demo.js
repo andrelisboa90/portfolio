@@ -184,5 +184,4 @@
             contentel.appendChild(imgel);
         }
     });
-    imagesLoaded(document.querySelectorAll('.preload'), () => document.body.classList.remove('loading'));
 }
